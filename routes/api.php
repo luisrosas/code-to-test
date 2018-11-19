@@ -15,3 +15,11 @@ Route::resource(
         'except' => ['edit', 'create']
     ]
 );
+
+Route::resource(
+    '/departments',
+    'DepartmentController',
+    [
+        'except' => ['edit', 'create']
+    ]
+);

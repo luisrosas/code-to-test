@@ -31,4 +31,9 @@ abstract class TestCase extends BaseTestCase
     {
         return factory(\App\Models\City::class, $count)->create($data);
     }
+
+    protected function createDepartment($count = 1, $data = [])
+    {
+        return factory(\App\Models\Department::class, $count)->create($data);
+    }
 }
