@@ -86,7 +86,7 @@ class CityTest extends TestCase
             ]);
     }
 
-    public function testDeleteUser()
+    public function testDeleteCity()
     {
         $city = $this->createCity(5)->random();
         $response = $this->request(
