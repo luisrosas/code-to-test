@@ -31,6 +31,6 @@ class StringHelperTest extends TestCase
         $texto = 'PruEBas DE soFtWare';
         $out = $helper->toLowerCase($texto);
 
-        $this->assertEquals($out, 'pruebas de sOftware');
+        $this->assertEquals($out, 'pruebas de software');
     }
 }
